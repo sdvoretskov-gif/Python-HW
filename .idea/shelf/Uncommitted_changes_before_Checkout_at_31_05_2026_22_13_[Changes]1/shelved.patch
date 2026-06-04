@@ -1,0 +1,38 @@
+Index: homework_01/.idea/inspectionProfiles/profiles_settings.xml
+===================================================================
+diff --git a/homework_01/.idea/inspectionProfiles/profiles_settings.xml b/homework_01/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1778666855376)
++++ b/homework_01/.idea/inspectionProfiles/profiles_settings.xml	(date 1778666855376)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1779986922020)
++++ b/.idea/vcs.xml	(date 1779986922020)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1779986922137)
++++ b/.idea/.gitignore	(date 1779986922137)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml

@@ -16,8 +16,8 @@
 #print(r)
 #for i in range (len(students)):
  #   print(students[i])
-#
+
 nums = [1,2,3,4,5,]
 for c in nums:
     if (c % 2 == 1):
-        print(c)
+     print(c)
