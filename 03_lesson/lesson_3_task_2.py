@@ -1,4 +1,4 @@
-from smartphone import smartphone
+from smartphone1 import smartphone
 
 catalog = [
     smartphone('Nokia', '3310', '+79271800019'),
@@ -9,4 +9,5 @@ catalog = [
 ]
 
 for smartphone in catalog:
-    print(f'Устройство абонента: {smartphone.stamp} {smartphone.model} контакт: {smartphone.subscriberNumber}')
+    print(f'Устройство абонента: {smartphone.stamp} {smartphone.model} '
+          f'контакт: {smartphone.subscriberNumber}')

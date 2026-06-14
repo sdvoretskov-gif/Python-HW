@@ -12,4 +12,3 @@ class user:
 
     def sayNameAndLastName(self):
         print('Мои имя и фамилия ', self.firstName, self.lastName)
-

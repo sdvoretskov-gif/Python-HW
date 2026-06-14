@@ -4,5 +4,3 @@ class smartphone:
         self.stamp = stamp
         self.model = model
         self.subscriberNumber = subscriber_number
-
-            
