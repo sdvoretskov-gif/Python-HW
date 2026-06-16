@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6c10112-74d6-44cf-880e-a66d1966a1e7" name="Changes" comment="workout_2">
-      <change afterPath="$PROJECT_DIR$/02_lesson/lessom_2_task_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2 task_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_7.py" afterDir="false" />
+    <list default="true" id="b6c10112-74d6-44cf-880e-a66d1966a1e7" name="Changes" comment="workout_3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/Mailing.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_lesson/Mailing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/address.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_lesson/address.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/lesson_3_task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_lesson/lesson_3_task_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/lesson_3_task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_lesson/lesson_3_task_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/lesson__task_.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_lesson/lesson__3_task_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/preparing for homework/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_01/preparing for homework3/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/preparing for homework/card.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_01/preparing for homework3/card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/preparing for homework/course_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_01/preparing for homework3/course_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/preparing for homework/ex_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_01/preparing for homework3/ex_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/preparing for homework/ex_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_01/preparing for homework3/ex_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/preparing for homework/ex_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_01/preparing for homework3/ex_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/preparing for homework/oop_task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_01/preparing for homework3/oop_task_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/preparing for homework/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_01/preparing for homework3/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/preparing for homework/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_01/preparing for homework3/student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/preparing for homework/user1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_01/preparing for homework3/user1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/smartphone.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_lesson/smartphone1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_lesson/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_1" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,6 +56,14 @@
     &quot;accountId&quot;: &quot;6649b5ae-01f5-42a8-940b-0dadec074d74&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/03_lesson/preparing for homework/course_group.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/03_lesson/preparing for homework/ex_1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/03_lesson/preparing for homework/ex_3.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -59,7 +78,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.CourseGroup.executor": "Run",
     "Python.Workout.executor": "Run",
+    "Python.ex_1.executor": "Run",
+    "Python.ex_2.executor": "Run",
+    "Python.ex_3.executor": "Run",
     "Python.lessom_2_task_5.executor": "Run",
     "Python.lesson_02_task_4.executor": "Run",
     "Python.lesson_1_task_1.executor": "Run",
@@ -72,14 +95,28 @@
     "Python.lesson_2_task_2.executor": "Run",
     "Python.lesson_2_task_3.executor": "Run",
     "Python.lesson_2_task_7.executor": "Run",
+    "Python.lesson_3_task_1.executor": "Run",
+    "Python.lesson_3_task_2.executor": "Run",
+    "Python.lesson__3_task_3.executor": "Run",
+    "Python.lesson__task_.executor": "Run",
     "Python.lessons_2_task_1.executor": "Run",
     "Python.my_py.executor": "Run",
+    "Python.oop_task_1.executor": "Run",
+    "Python.student.executor": "Run",
+    "Python.user.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "lessom__02"
+    "git-widget-placeholder": "lesson3"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DNS\PycharmProjects\Python-HW\lesson_01" />
+      <recent name="C:\Users\DNS\PycharmProjects\Python-HW\03_lesson" />
+      <recent name="C:\Users\DNS\PycharmProjects\Python-HW\03_lesson\preparing for homework" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -111,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780084773556</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="workout_3">
+      <option name="closed" value="true" />
+      <created>1781454771796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781454771796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +173,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first_task" />
     <MESSAGE value="workout_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="workout_2" />
+    <MESSAGE value="workout_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="workout_3" />
   </component>
 </project>
