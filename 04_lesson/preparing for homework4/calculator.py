@@ -16,14 +16,15 @@ class Calculator:
     @staticmethod
     def div(a, b):
         if (b == 0):
-            raise ArithmeticError("На ноль делить нельзя")
+            raise ZeroDivisionError("На ноль делить нельзя")
         return a / b
 
     @staticmethod
     def pow(a, b=2):
         return a ** b
 
-    def avg(self, nums):
+    @staticmethod
+    def avg(nums):
         if (len(nums) == 0):
             return 0
 
@@ -32,5 +33,4 @@ class Calculator:
             s = s + num
 
         l = len(nums)
-        return self.div(s,l)
-
+        return s / l
