@@ -2,10 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.core import driver
 
 
-def test_shop(text_cost=None):
+def test_shop():
     driver = webdriver.Firefox()
     wait = WebDriverWait(driver, 10)
     driver.maximize_window()
@@ -80,8 +79,6 @@ def test_shop(text_cost=None):
     total_cost = driver.find_element(
         By.CSS_SELECTOR, '.summary_total_label').text
 
-    print("Total:", text_cost)
-
     expected_total = "Total: $58.29"
     wait.until(EC.text_to_be_present_in_element(
         (By.CSS_SELECTOR, '.summary_total_label'), expected_total))
@@ -90,8 +87,4 @@ def test_shop(text_cost=None):
          f"Ожидалось: {expected_total}, Получено: {total_cost}")
     print("Проверка пройдена: итоговая сумма = $58.29")
 
-
-try:
-    test_shop()
-finally:
     driver.quit()
