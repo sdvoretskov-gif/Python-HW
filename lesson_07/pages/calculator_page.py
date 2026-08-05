@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -7,7 +8,7 @@ class CalculatorPage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.wait = WebDriverWait(driver, 10)
+        self.wait = WebDriverWait(driver, 50)
         driver.maximize_window()
 
     def open(self):
@@ -21,6 +22,7 @@ class CalculatorPage:
             EC.presence_of_element_located((By.CSS_SELECTOR, '#delay')))
         delay_field.clear()
         delay_field.send_keys('45')
+        delay_field.send_keys(Keys.TAB)
 
     def buttons(self):
         buttons = ["7", "+", "8", "="]
@@ -29,7 +31,9 @@ class CalculatorPage:
             self.driver.find_element(By.XPATH, xpath).click()
 
     def get_result(self):
-        screen = self.wait.until(
-            EC.visibility_of_element_located((By.CSS_SELECTOR, ".screen"))
+        self.wait.until(
+            EC.text_to_be_present_in_element(
+                (By.CSS_SELECTOR, ".screen"), '15')
         )
-        return screen.text.strip()
+        result_element = self.driver.find_element(By.CSS_SELECTOR, ".screen")
+        return result_element.text

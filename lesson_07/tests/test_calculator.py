@@ -18,3 +18,4 @@ def test_calculator(driver):
     calc_page.delay_input()
     calc_page.buttons()
     calc_page.get_result()
+    assert calc_page.get_result() == "15"
