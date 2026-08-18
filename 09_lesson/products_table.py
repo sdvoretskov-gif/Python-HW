@@ -8,9 +8,12 @@ class ProductsTable:
                            " values (:new_art, :new_product, :new_category)"),
         "select by art": text("SELECT * FROM products "
                               "WHERE (art) = :select_art"),
-        "delete by art": text("DELETE FROM products WHERE art = :product_art"),
+        "select by product": text("SELECT * FROM products "
+                                  "WHERE (product) = :select_product"),
         "update by art": text("UPDATE products "
-                              "SET product = :new_product" " WHERE art = :art")
+                              "SET art = :new_art"
+                              " WHERE product = :product"),
+        "delete by art": text("DELETE FROM products WHERE art = :product_art")
     }
 
     def __init__(self, connection_string):
@@ -39,10 +42,18 @@ class ProductsTable:
         conn.close()
         return company
 
-    def edit_product(self, product, art):
+    def get_product_by_product(self, product):
+        conn = self.__db.connect()
+        result = conn.execute(self.__scripts["select by product"],
+                              {"select_product": product})
+        company = result.mappings().one_or_none()
+        conn.close()
+        return company
+
+    def edit_product_by_art(self, art, product):
         conn = self.__db.connect()
         conn.execute(self.__scripts["update by art"],
-                     {"new_product": product, "art": art})
+                     {"new_art": art, "product": product})
         conn.commit()
         conn.close()
 
