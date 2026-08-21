@@ -58,7 +58,7 @@ def test_full_checkout_flow(driver):
     expected_total = "Total: $58.29"
     actual_total = checkout_page.total_cost()
 
-    with allure.step("сравнивает итоговую сумму покупки  с ожидаемой"):
+    with allure.step("сравнивает итоговую сумму покупки с ожидаемой"):
         assert actual_total == expected_total, \
             (f"Ошибка! Итоговая сумма не совпадает."
              f"\nОжидалось: {expected_total}, получено: '{actual_total}'")

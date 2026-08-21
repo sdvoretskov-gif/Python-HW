@@ -23,7 +23,7 @@ def driver():
 def test_calculator(driver):
     calc_page = CalculatorPage(driver)
     with allure.step(
-            "открывает страницу калькулятора в  браузере Google Chrome"):
+            "открывает страницу калькулятора в браузере Google Chrome"):
         calc_page.open()
     with allure.step(
             "устанавливает задержку в вычислениях калькулятора"):
