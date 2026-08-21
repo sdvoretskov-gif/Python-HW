@@ -1,0 +1,1 @@
+INSERT INTO company("name") values (%(new_name)s)

@@ -1,0 +1,1 @@
+{"uuid": "8e799d6e-daf7-4436-bb46-21af55a592ab", "befores": [{"name": "input_del_text", "status": "passed", "start": 1787306271971, "stop": 1787306271971}], "afters": [{"name": "input_del_text::<lambda>", "start": 1787306271971}], "start": 1787306271971, "stop": 1787306271971}
